@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.testing.cropcamera.view.CameraDrawView
+            android:id="@+id/cameraDrawView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp" />
+
+        <ViewStub
+            android:id="@+id/driveringLicense"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/layout_camera_tip_drivering_license"/>
+
+        <ViewStub
+            android:id="@+id/carFrontImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/layout_camera_tip_car_front_img"/>
+
+        <ViewStub
+            android:id="@+id/transportLicense"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/layout_camera_tip_transport_license"/>
+
+        <ViewStub
+            android:id="@+id/personImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/layout_camera_tip_person_img"/>
+
+        <ViewStub
+            android:id="@+id/driverCard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/layout_camera_tip_driver_card"/>
+
+        <ViewStub
+            android:id="@+id/transportQualificateLicense"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/layout_camera_tip_transport_qualificate_license"/>
+    </RelativeLayout>
+
+</layout>

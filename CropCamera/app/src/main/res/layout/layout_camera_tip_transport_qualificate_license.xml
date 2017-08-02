@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tipLayer">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/shape_small_round_corner_tranparent_bg_gray_border">
+
+        <TextView
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_marginBottom="21dp"
+            android:layout_marginRight="22dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shape_rect_transparent_bg_gray_border"
+            android:text="二维码"
+            android:gravity="center"
+            android:textSize="10dp"/>
+
+    </RelativeLayout>
+
+    <View style="@style/line_vertical_wrap"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/shape_small_round_corner_tranparent_bg_gray_border">
+
+    </RelativeLayout>
+</LinearLayout>

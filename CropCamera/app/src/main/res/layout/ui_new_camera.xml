@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<com.example.administrator.testall.viewer.CameraView-->
+    <!--android:id="@+id/cameraView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+    <!--<com.example.administrator.testall.viewer.CameraLayerView-->
+    <!--android:id="@+id/cameraLayerView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:padding="16dp"/>-->
+    <com.example.testing.cropcamera.view.CameraDrawView
+        android:id="@+id/cameraDrawView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp" />
+</FrameLayout>

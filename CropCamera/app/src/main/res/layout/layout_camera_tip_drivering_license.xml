@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tipLayer"
+    android:gravity="center">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/shape_small_round_corner_tranparent_bg_gray_border">
+        
+        <View
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginBottom="22dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shape_rect_red_border"
+            />
+
+    </RelativeLayout>
+
+    <View style="@style/line_vertical_wrap" android:layout_marginLeft="46dp" android:layout_marginRight="46dp" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/shape_small_round_corner_tranparent_bg_gray_border">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="行驶证副页"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="条形码"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="52dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/shape_rect_transparent_bg_gray_border" />
+    </RelativeLayout>
+</LinearLayout>
